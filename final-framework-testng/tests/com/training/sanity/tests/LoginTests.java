@@ -2,8 +2,10 @@ package com.training.sanity.tests;
 
 import java.io.FileInputStream;
 import java.io.IOException;
+import java.util.List;
 import java.util.Properties;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
@@ -46,10 +48,14 @@ public class LoginTests {
 		driver.quit();
 	}
 	@Test
-	public void validLoginTest() {
+	public void loginPassTest() {
+		loginPOM.clickLoginBtn();
+		//driver.findElement(By.className("sign-in")).click();
 		loginPOM.sendUserName("admin");
 		loginPOM.sendPassword("admin@123");
-		loginPOM.clickLoginBtn(); 
 		screenShot.captureScreenShot("First");
+		//driver.findElement(By.name("login")).click();
+		loginPOM.LoginWithAccount();    //clickOnSubmit();//clickOnLoginWithAccount();
+		screenShot.captureScreenShot("Second");
 	}
 }
