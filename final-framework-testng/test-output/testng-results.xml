@@ -2,42 +2,42 @@
 <testng-results skipped="0" failed="1" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="57810" started-at="2020-03-12T13:57:57Z" finished-at="2020-03-12T13:58:55Z">
+  <suite name="Default suite" duration-ms="54722" started-at="2020-03-13T12:58:41Z" finished-at="2020-03-13T12:59:36Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="57810" started-at="2020-03-12T13:57:57Z" finished-at="2020-03-12T13:58:55Z">
-      <class name="com.training.sanity.tests.RETC_017">
-        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.sanity.tests.RETC_017@1531931]" name="setUpBeforeClass" is-config="true" duration-ms="19" started-at="2020-03-12T19:27:57Z" finished-at="2020-03-12T19:27:57Z">
+    <test name="Default test" duration-ms="54722" started-at="2020-03-13T12:58:41Z" finished-at="2020-03-13T12:59:36Z">
+      <class name="com.training.sanity.tests.RETC_018">
+        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.sanity.tests.RETC_018@1531931]" name="setUpBeforeClass" is-config="true" duration-ms="22" started-at="2020-03-13T18:28:41Z" finished-at="2020-03-13T18:28:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBeforeClass -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.sanity.tests.RETC_017@1531931]" name="setUp" is-config="true" duration-ms="17836" started-at="2020-03-12T19:27:57Z" finished-at="2020-03-12T19:28:15Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.sanity.tests.RETC_018@1531931]" name="setUp" is-config="true" duration-ms="15729" started-at="2020-03-13T18:28:41Z" finished-at="2020-03-13T18:28:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="allposthrashtTest()[pri:0, instance:com.training.sanity.tests.RETC_017@1531931]" name="allposthrashtTest" duration-ms="38111" started-at="2020-03-12T19:28:15Z" finished-at="2020-03-12T19:28:53Z">
+        <test-method status="FAIL" signature="allposthrashtTest()[pri:0, instance:com.training.sanity.tests.RETC_018@1531931]" name="allposthrashtTest" duration-ms="37133" started-at="2020-03-13T18:28:57Z" finished-at="2020-03-13T18:29:34Z">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='title-prompt-text']"}
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"*[name='tag-slug']"}
   (Session info: chrome=80.0.3987.132)
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
 System info: host: 'DESKTOP-674LM9T', ip: '9.121.245.205', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_161'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}), userDataDir=C:\Users\SNEHAN~1\AppData\Local\Temp\scoped_dir10128_1779844628}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=WINDOWS, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:65012}, acceptInsecureCerts=false, browserVersion=80.0.3987.132, browserName=chrome, javascriptEnabled=true, platformName=WINDOWS, setWindowRect=true}]
-Session ID: 479518c451fb1c8fcaededf0c76d3c5b
-*** Element info: {Using=xpath, value=//input[@id='title-prompt-text']}]]>
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}), userDataDir=C:\Users\SNEHAN~1\AppData\Local\Temp\scoped_dir14952_1970555748}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=WINDOWS, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:60479}, acceptInsecureCerts=false, browserVersion=80.0.3987.132, browserName=chrome, javascriptEnabled=true, platformName=WINDOWS, setWindowRect=true}]
+Session ID: 58e1767ba62bf263ff33adc8b252e828
+*** Element info: {Using=name, value=tag-slug}]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='title-prompt-text']"}
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"*[name='tag-slug']"}
   (Session info: chrome=80.0.3987.132)
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
 System info: host: 'DESKTOP-674LM9T', ip: '9.121.245.205', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_161'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}), userDataDir=C:\Users\SNEHAN~1\AppData\Local\Temp\scoped_dir10128_1779844628}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=WINDOWS, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:65012}, acceptInsecureCerts=false, browserVersion=80.0.3987.132, browserName=chrome, javascriptEnabled=true, platformName=WINDOWS, setWindowRect=true}]
-Session ID: 479518c451fb1c8fcaededf0c76d3c5b
-*** Element info: {Using=xpath, value=//input[@id='title-prompt-text']}
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}), userDataDir=C:\Users\SNEHAN~1\AppData\Local\Temp\scoped_dir14952_1970555748}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=WINDOWS, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:60479}, acceptInsecureCerts=false, browserVersion=80.0.3987.132, browserName=chrome, javascriptEnabled=true, platformName=WINDOWS, setWindowRect=true}]
+Session ID: 58e1767ba62bf263ff33adc8b252e828
+*** Element info: {Using=name, value=tag-slug}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -49,10 +49,10 @@ Session ID: 479518c451fb1c8fcaededf0c76d3c5b
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:458)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:434)
+	at org.openqa.selenium.By$ByName.findElement(By.java:303)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:348)
-	at com.training.sanity.tests.RETC_017.allposthrashtTest(RETC_017.java:61)
+	at com.training.sanity.tests.RETC_018.allposthrashtTest(RETC_018.java:62)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -83,11 +83,11 @@ Session ID: 479518c451fb1c8fcaededf0c76d3c5b
           <reporter-output>
           </reporter-output>
         </test-method> <!-- allposthrashtTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.RETC_017@1531931]" name="tearDown" is-config="true" duration-ms="1820" started-at="2020-03-12T19:28:53Z" finished-at="2020-03-12T19:28:55Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.RETC_018@1531931]" name="tearDown" is-config="true" duration-ms="1814" started-at="2020-03-13T18:29:34Z" finished-at="2020-03-13T18:29:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.training.sanity.tests.RETC_017 -->
+      </class> <!-- com.training.sanity.tests.RETC_018 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

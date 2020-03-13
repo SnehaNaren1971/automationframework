@@ -58,7 +58,10 @@ public class RETC_017 {
 		//Thread.sleep(5000);
 		driver.findElement(By.xpath("//div[contains(text(),'Posts')]")).click();;
 		driver.findElement(By.xpath("//a[@href='post-new.php']")).click();
-		driver.findElement(By.xpath("//input[@id='title-prompt-text']")).sendKeys("PostSN1");
+		//driver.findElement(By.xpath("//input[@id='title-prompt-text']")).sendKeys("PostSN1");
+		driver.findElement(By.name("post_title")).sendKeys("TestPost11");
+		driver.findElement(By.name("content")).sendKeys("TestPost");
+		driver.findElement(By.xpath("//input[@id='publish']")).click();
 		screenShot.captureScreenShot("");
 	}
 
